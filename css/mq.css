@@ -1,0 +1,206 @@
+/* 𝙼𝚎𝚍𝚒𝚊 𝚀𝚞𝚎𝚛𝚒𝚎𝚜 */
+
+
+/* General + Nav */
+
+@media screen and (max-width: 991px){
+    #ortraxNavCollapse {
+        top: 21px;
+        position: relative;
+    }
+
+    .nav_btn_item {margin-top: 5px; margin-bottom: 8px;}
+    li.nav-item > a:after {bottom: 0;}
+
+    button.nav_register_btn {margin-bottom: 20px;}
+
+    a.nav-link:last-child {margin-bottom: 8px;}
+
+}
+
+
+/* ==================== */
+/* Header */
+/* ==================== */
+
+@media screen and (max-width: 1199px){
+    .h_banner_home h1 {font-size: 3rem;}
+    .h_banner_home h2 {font-size: 1.2rem;}
+}
+
+@media screen and (max-width: 991px){
+    .h_banner_home {width: 70%;}
+}
+
+@media screen and (max-width: 767px){
+    .h_banner_home {width: 74%; left: 5%;}
+    .h_banner_home h1 {font-size: 2.6rem;}
+    .h_banner_home h2 {font-size: 1.1rem;}
+}
+
+@media screen and (max-width: 699px){
+    .homepage_decoration {width: 164px; height: 200px;}
+}
+
+@media screen and (max-width: 525px){
+    .h_banner_home {width: 90%; left: 4%;}
+    .h_banner_home h2 {width: 98%;}
+
+    .homepage_decoration {display: none;}
+}
+
+@media screen and (max-width: 475px){
+    .h_banner_home h1 {font-size: 2.3rem;}
+    .h_banner_home h2 {font-size: 1.1rem;}
+}
+
+@media screen and (max-width: 415px){
+    .h_banner_home h1 {font-size: 2rem;}
+}
+
+@media screen and (max-width: 380px){
+    .h_banner_home h2 {font-size: 1rem;}
+    button.learn_more_cta_btn {height: 46px; width: 180px; margin-bottom: 8px;}
+    .app_buttons_holder {padding-top: 8px;}
+    a.storelinx {width: 100%; height: 46px;}
+}
+
+
+
+/* ==================== */
+/* Three Boxes */
+/* ==================== */
+
+@media screen and (max-width: 1399px){
+    .three_box_area {min-height: initial; height: 600px;}
+    .ctabox {width: 196px;}
+}
+
+@media screen and (max-width: 1199px){
+    .three_box_area {height: 465px;}
+    .three_box_outermost {top: -100px;}
+    .ctabox_outermost {margin-right: 0;}
+    .ctabox {width: 100%;}
+
+    img.ctaboxicon {width: 36px;}
+    .cta_ttl_holder {width: 90%;}
+    img.circlink {width: 32px;}
+    .cta_ttl_holder {padding-top: 22px;}
+    .cta_ttl_holder h3 {font-size: 1rem;}
+    .ctabox {height: 230px;}
+    a.ctalink {bottom: -60px;}
+}
+
+@media screen and (max-width: 1040px){
+    img.docphone {left: -10px;}
+}
+
+@media screen and (max-width: 767px){
+    .three_box_area {min-height: 600px; height: auto;}
+    .three_box_outermost {top: -10px;}
+
+    img.ctaboxicon {width: 52px;}
+    .cta_ttl_holder {width: 90%;}
+    img.circlink {width: 52px;}
+    .cta_ttl_holder {padding-top: 22px;}
+    .cta_ttl_holder h3 {font-size: 1.3rem;}
+    .ctabox {height: 230px; margin-bottom: 32px;}
+    a.ctalink {bottom: -60px;}
+}
+
+@media screen and (max-width: 545px){
+    .ctabox_outermost {position: relative; top: -55px;}
+}
+
+@media screen and (max-width: 445px){
+    .doc_with_phone_outermost {position: relative; top: -85px;}
+    .ctabox_outermost {top: -165px;}
+
+    .three_box_area {min-height: initial; height: 1295px;}
+
+}
+
+@media screen and (max-width: 384px){
+    .ctabox_outermost {top: -185px;}
+
+    .three_box_area {min-height: initial; height: 1250px;}
+}
+
+@media screen and (max-width: 350px){
+    .ctabox_outermost {top: -205px;}
+
+    .three_box_area {min-height: initial; height: 1250px;}
+}
+
+
+
+
+
+/* ==================== */
+/* Who We Are */
+/* ==================== */
+
+@media screen and (max-width: 480px){
+    img.who_we_are_image {
+        width: initial;
+        position: relative;
+        top: 15px;
+    }
+
+    .who_we_are_text_holder {padding-left: 18px;}
+}
+
+
+
+
+/* ==================== */
+/* Why OR Trax */
+/* ==================== */
+
+@media screen and (max-width: 767px){
+    .circle_icon_holder {margin-bottom: 75px;}
+}
+
+
+
+
+/* ==================== */
+/* Footer */
+/* ==================== */
+
+@media screen and (max-width: 433px){
+    ul.footer_navigation li {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    ul.footer_navigation li a {font-size: 1.5rem; font-weight: 800;}
+}
+
+@media screen and (max-width: 380px){
+    a.storelinx {width: 155px; height: 46px;}
+}
+
+@media screen and (max-width: 346px){
+    a.storelinx {height: 55px;}
+    .footer_navigation_holder {padding-top: 45px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

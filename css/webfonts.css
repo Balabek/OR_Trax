@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Nexa';
+    src: url('../webfonts/NexaLight.eot');
+    src: url('../webfonts/NexaLight.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/NexaLight.woff2') format('woff2'),
+    url('../webfonts/NexaLight.woff') format('woff'),
+    url('../webfonts/NexaLight.ttf') format('truetype'),
+    url('../webfonts/NexaLight.svg#NexaLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../webfonts/NexaBold.eot');
+    src: url('../webfonts/NexaBold.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/NexaBold.woff2') format('woff2'),
+    url('../webfonts/NexaBold.woff') format('woff'),
+    url('../webfonts/NexaBold.ttf') format('truetype'),
+    url('../webfonts/NexaBold.svg#NexaBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../webfonts/Nexa-Black.eot');
+    src: url('../webfonts/Nexa-Black.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/Nexa-Black.woff2') format('woff2'),
+    url('../webfonts/Nexa-Black.woff') format('woff'),
+    url('../webfonts/Nexa-Black.ttf') format('truetype'),
+    url('../webfonts/Nexa-Black.svg#Nexa-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../webfonts/Nexa-Heavy.eot');
+    src: url('../webfonts/Nexa-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/Nexa-Heavy.woff2') format('woff2'),
+    url('../webfonts/Nexa-Heavy.woff') format('woff'),
+    url('../webfonts/Nexa-Heavy.ttf') format('truetype'),
+    url('../webfonts/Nexa-Heavy.svg#Nexa-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../webfonts/Nexa-Regular.eot');
+    src: url('../webfonts/Nexa-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/Nexa-Regular.woff2') format('woff2'),
+    url('../webfonts/Nexa-Regular.woff') format('woff'),
+    url('../webfonts/Nexa-Regular.ttf') format('truetype'),
+    url('../webfonts/Nexa-Regular.svg#Nexa-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../webfonts/Nexa-XBold.eot');
+    src: url('../webfonts/Nexa-XBold.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/Nexa-XBold.woff2') format('woff2'),
+    url('../webfonts/Nexa-XBold.woff') format('woff'),
+    url('../webfonts/Nexa-XBold.ttf') format('truetype'),
+    url('../webfonts/Nexa-XBold.svg#Nexa-XBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../webfonts/Nexa-Bold.eot');
+    src: url('../webfonts/Nexa-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/Nexa-Bold.woff2') format('woff2'),
+    url('../webfonts/Nexa-Bold.woff') format('woff'),
+    url('../webfonts/Nexa-Bold.ttf') format('truetype'),
+    url('../webfonts/Nexa-Bold.svg#Nexa-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
