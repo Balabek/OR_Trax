@@ -9,14 +9,25 @@
         position: relative;
     }
 
+    ul.ortrx_navbar {text-align: center;}
+    ul.ortrx_navbar li a {font-size: 1.5rem; font-weight: 800;}
+    li.nav-item {margin-right: 0;}
+    li.nav-item:nth-child(6) {margin-right: 0;}
+
     .nav_btn_item {margin-top: 5px; margin-bottom: 8px;}
     li.nav-item > a:after {bottom: 0;}
 
     button.nav_register_btn {margin-bottom: 20px;}
 
     a.nav-link:last-child {margin-bottom: 8px;}
-
 }
+
+@media screen and (max-width: 485px){
+    button.nav_signin_btn {width: 100%}
+    button.nav_register_btn {width: 100%}
+}
+
+
 
 
 /* ==================== */
