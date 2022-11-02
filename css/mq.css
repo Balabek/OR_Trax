@@ -202,13 +202,37 @@
 
 
 
+/* _-_-_-_ */
+/* ---------------- */
+/* ==================== */
+/* About (Inner Page) */
+/* ==================== */
+/* ---------------- */
+/* _-_-_-_ */
+
+@media screen and (max-width: 1199px) {
+    .cs_card_holder {margin-bottom: 46px;}
+}
+
+@media screen and (max-width: 991px) {
+    .inner_banner_holder h1 {text-align: center; left: 0;}
+}
+
+@media screen and (max-width: 767px){
+    article.standard_body_text.centered_and_shrinked {width: 99%;}
+}
+
+@media screen and (max-width: 576px){
+    .cs_cards_outermost {padding-left: 36px;}
+}
 
 
+@media screen and (max-width: 485px) {
+    .inner_banner_holder h1 {font-size: 3rem;}
 
-
-
-
-
+    .cs_date_and_author_holder {width: 94%;}
+    .cs_title_holder h3 {font-size: 1.2rem;}
+}
 
 
 

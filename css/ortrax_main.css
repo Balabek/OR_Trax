@@ -856,16 +856,231 @@ a.footersocicon.tw {background: url("../img/twitter.svg") center center no-repea
 
 
 
+/* ============= */
+/* =========== ABOUT (INNER) =========== */
+/* ============= */
 
+.inner_header_area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 300px;
+    height: auto;
+    text-align: center;
+}
 
+.inner_header_area:after {
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.5);
+}
 
+.inner_banner_holder {
+    position: relative;
+    z-index: 3;
+}
 
+.inner_banner_holder h1 {
+    font-family: Nexa, sans-serif;
+    position: relative;
+    z-index: 1;
+    font-size: 4.1rem;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: left;
+    text-transform: uppercase;
+    left: 75px;
+}
 
+.innerpage_decoration {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.6;
+    right: 0;
+    bottom: 0;
+    width: 752px;
+    height: 300px;
+    background: url('../img/inner_header_decorative_polygon.png') no-repeat;
+    background-size: contain;
+}
 
+.who_we_are_inner_area {
+    position: relative;
+    background: #fefefe;
+    min-height: 635px;
+    height: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
 
+.who_we_are_inner_area_outermost {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-top: 18px;
+}
 
+img.tech_abstract_image {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 475px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
 
+.casestudies_area {
+    position: relative;
+    display: block;
+    background: #f9f9f9;
+    min-height: 1200px;
+    height: auto;
+    padding-top: 55px;
+    padding-bottom: 65px;
+}
 
+.casestudies_area_outermost {
+    padding-top: 55px;
+}
 
+article.standard_body_text.centered_and_shrinked {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.cs_cards_outermost {
+    position: relative;
+    padding-top: 65px;
+}
+
+.cs_card {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 22px;
+    width: 100%;
+    height: 620px;
+    background: #FFFFFF;
+    box-shadow: 0 45px 120px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+}
+
+.cs_icon_holder {
+    padding-top: 24px;
+}
+
+img.cs_icon {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 36px;
+}
+
+span.cs_separ {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: url("../img/cs_separ.svg") center center no-repeat;
+    background-size: contain;
+    margin-bottom: 12px;
+}
+
+.cs_title_holder {
+    height: 130px;
+    padding: 20px 22px 22px 22px;
+}
+
+.cs_title_holder h3 {
+    font-family: 'Nexa', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #666666;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.cs_date_and_author_holder {
+    position: relative;
+    padding-top: 22px;
+    text-align: center;
+    width: 70%;
+    height: 110px;
+    margin: 0 auto;
+}
+
+.cs_date_holder {
+    display: flex;
+    margin-bottom: 16px;
+    justify-content: center;
+}
+
+.cs_author_holder {
+    display: flex;
+    margin-bottom: 16px;
+    justify-content: center;
+}
+
+span.cs_date {
+    display: block;
+    width: 42px;
+    height: 18px;
+    float: left;
+    margin-right: 2px;
+    background: url("../img/cs_calendar.svg") center no-repeat;
+    background-size: contain;
+}
+
+span.cs_author {
+    display: block;
+    width: 42px;
+    height: 18px;
+    float: left;
+    margin-right: 2px;
+    background: url("../img/cs_author.svg") center no-repeat;
+    background-size: contain;
+}
+
+.cs_date_holder small, .cs_author_holder small {
+    font-size: 1rem;
+    color: #999999;
+    text-align: center;
+    text-indent: -5px;
+}
+
+.cs_button_holder {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+}
+
+a.cs_view_btn {
+    position: absolute;
+    bottom: -130px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 1.111rem;
+    font-weight: 400;
+    line-height: 2.1;
+    width: 200px;
+    height: 46px;
+    color: #2C0735;
+    background: rgba(44, 7, 53, 0.05);
+    border: 1px solid rgba(44, 7, 53, 0.35);
+    border-radius: 100px;
+    transition: all 0.4s ease-in-out;
+}
+
+a.cs_view_btn:hover {
+    background: rgba(44, 7, 53, 1);
+    color: #ffffff;
+}
 
 
