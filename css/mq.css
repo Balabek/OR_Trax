@@ -224,6 +224,7 @@
 
 @media screen and (max-width: 576px){
     .cs_cards_outermost {padding-left: 36px;}
+    .innerpage_decoration {right: -55%;}
 }
 
 
@@ -233,6 +234,46 @@
     .cs_date_and_author_holder {width: 94%;}
     .cs_title_holder h3 {font-size: 1.2rem;}
 }
+
+
+
+
+/* _-_-_-_ */
+/* ---------------- */
+/* ==================== */
+/* Services (Inner Page) */
+/* ==================== */
+/* ---------------- */
+/* _-_-_-_ */
+
+@media screen and (max-width: 991px){
+    .services_inner_area {padding-top: 6px;}
+    img.phone_pulse_image {height: 400px;}
+}
+
+@media screen and (max-width: 576px){
+    .services_inner_area_outermost {padding-left: 16px;}
+    .nocharge_area_outermost {padding-left: 16px;}
+
+    .nocharge_area {
+        background: url("../img/nocharge_bgd_xs.png") center center no-repeat;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

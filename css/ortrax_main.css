@@ -1071,7 +1071,7 @@ a.cs_view_btn {
     line-height: 2.1;
     width: 200px;
     height: 46px;
-    color: #2C0735;
+    color: rgba(44, 7, 53, 0.75);
     background: rgba(44, 7, 53, 0.05);
     border: 1px solid rgba(44, 7, 53, 0.35);
     border-radius: 100px;
@@ -1082,5 +1082,93 @@ a.cs_view_btn:hover {
     background: rgba(44, 7, 53, 1);
     color: #ffffff;
 }
+
+
+
+
+
+/* ============= */
+/* =========== SERVICES (INNER) =========== */
+/* ============= */
+
+.services_inner_area {
+    position: relative;
+    background: #f9f9f9;
+    min-height: 750px;
+    height: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.services_inner_area_outermost {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-top: 18px;
+}
+
+img.phone_pulse_image {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 675px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+.nocharge_area {
+    position: relative;
+    min-height: 750px;
+    height: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background: url("../img/nocharge_bgd.png") center center no-repeat;
+    background-size: cover;
+}
+
+.nocharge_area_outermost {
+    padding-top: 65px;
+}
+
+article.standard_body_text > ul {
+    padding-top: 12px;
+    padding-left: 0;
+}
+
+article.standard_body_text > ul li {
+    list-style-type: none;
+    font-size: 1.143rem;
+    font-weight: 500;
+    color: #666666;
+    line-height: 1.6;
+    margin-bottom: 18px;
+    text-indent: -18px;
+    margin-left: 18px;
+}
+
+article.standard_body_text > ul li:before {
+    position: relative;
+    top: -1px;
+    font-family: "Font Awesome 5 Free";
+    content: '\f058';
+    font-weight: 800;
+    font-size: 1rem;
+    color: #00A5E7;
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
