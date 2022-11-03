@@ -295,6 +295,30 @@
 
 
 
+/* _-_-_-_ */
+/* ---------------- */
+/* ==================== */
+/* Contact (Inner Page) */
+/* ==================== */
+/* ---------------- */
+/* _-_-_-_ */
+
+@media screen and (max-width: 991px){
+    .wrld {margin-bottom: 80px;}
+}
+
+@media screen and (max-width: 425px){
+    input.ortrx_input {font-size: 0.88rem;}
+    textarea.ortrx_txtarea {font-size: 0.88rem;}
+}
+
+@media screen and (max-width: 360px){
+    input.ortrx_input {font-size: 0.7rem;}
+    textarea.ortrx_txtarea {font-size: 0.7rem;}
+}
+
+
+
 
 
 

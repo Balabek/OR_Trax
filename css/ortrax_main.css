@@ -1285,7 +1285,6 @@ button.contactus_btn:hover {
     color: #ffffff;
 }
 
-
 .section_title_holder_questions h2 {
     font-family: 'Nexa', sans-serif;
     font-size: 2.2rem;
@@ -1294,5 +1293,157 @@ button.contactus_btn:hover {
     color: #000000;
     margin-bottom: 16px;
 }
+
+.contact_area {
+    position: relative;
+    background: #F7FAFB;
+    min-height: 800px;
+    height: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.contact_area_outermost {
+    display: flex;
+    align-content: center;
+    /*justify-content: center;*/
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 75px;
+}
+
+.wrld {
+    position: relative;
+    top: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 435px;
+    background: url("../img/wrld.png") center center no-repeat;
+    background-size: contain;
+}
+
+span.phone {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    background: url("../img/phone.svg") no-repeat;
+    background-size: contain;
+}
+
+span.email {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    background: url("../img/email.svg") no-repeat;
+    background-size: contain;
+}
+
+.contact_data_holder a {
+    position: relative;
+    text-decoration: none;
+    top: -4px;
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #005897;
+    font-weight: 800;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.contact_data_holder a:hover {
+    color: rgba(0, 88, 151, 0.81);
+}
+
+form.ortrx_contact_form {
+    position: relative;
+    width: 100%;
+    min-height: 800px;
+    padding: 50px 40px 50px 40px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0 4px 250px rgba(0, 0, 0, 0.06);
+    border-radius: 18px;
+}
+
+.form_innerbox {
+    padding-top: 42px;
+}
+
+input.ortrx_input {
+    height: 50px;
+    padding-left: 18px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666666;
+    background: #f9f9f9;
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+}
+
+input.ortrx_input:focus {
+    border: 1px solid #E0E0E0;
+    background: #f9f9f9;
+    box-shadow: none !important;
+}
+
+.ortrx_txtarea {
+    height: 240px;
+    padding-left: 18px;
+    padding-top: 18px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666666;
+    background: #f9f9f9;
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+    resize: none;
+}
+
+.ortrx_txtarea:focus {
+    border: 1px solid #E0E0E0;
+    background: #f9f9f9;
+    box-shadow: none !important;
+}
+
+.contact_submit_btn_holder {
+    padding-top: 42px;
+}
+
+button.ortrx_send_btn {
+    height: 55px;
+    width: 225px;
+    color: #ffffff;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #00A5E7;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.09);
+    border-radius: 100px;
+    transition: all 0.4s ease-in-out;
+}
+
+button.ortrx_send_btn:hover {
+    background: rgba(0, 165, 231, 0.78);
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 

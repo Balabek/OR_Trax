@@ -9,6 +9,7 @@ $(document).ready(function(){
 
 
 
+
     // Subtle fade-in animation for the below-mentioned elements
     // ScrollReveal().reveal('.solution_box_outermost', {delay: 100});
     // ScrollReveal().reveal('.twophones', {delay: 500, duration: 1400});
