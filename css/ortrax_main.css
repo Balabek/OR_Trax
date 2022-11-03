@@ -1157,18 +1157,142 @@ article.standard_body_text > ul li:before {
     margin-right: 8px;
 }
 
+.faq_inner_area {
+    position: relative;
+    background: #fefefe;
+    min-height: 1200px;
+    height: auto;
+    padding-top: 45px;
+    padding-bottom: 80px;
+}
+
+.faq_inner_area_outermost {
+    padding-top: 55px;
+}
+
+.faq_accordion_holder {
+    position: relative;
+    display: block;
+    padding-top: 65px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.accordion-button:not(.collapsed) {background-color: #f9f9f9 !important;}
+
+.accordion-button:not(.collapsed) {color: #666666;}
+
+.accordion-button {font-weight: 700;}
+
+.accordion-button:focus {box-shadow: none !important;}
+
+.accordion-button:not(:disabled) {color: #666666;}
+
+.accordion-button.collapsed::after {
+    width: 22px;
+    height: 22px;
+    background: url("../img/plus.svg") no-repeat !important;
+    background-size: contain !important;
+}
+
+.accordion-button::after {
+    width: 22px;
+    height: 22px;
+    background: url("../img/minus.svg") no-repeat !important;
+    background-size: contain !important;
+}
+
+.accordion-body a {
+    color: #00A5E7;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.accordion-body a:hover {
+    color: rgba(0, 165, 231, 0.75);
+}
+
+.accordion-item {
+    margin-bottom: 22px;
+    border: 1px solid #E0E0E0 !important;
+    border-radius: 2px !important;
+    background: #f9f9f9;
+}
+
+hr.faq_gapmaker {
+    margin-top: 55px;
+}
+
+.questions_cta_area {
+    position: relative;
+    background: #F7FAFB;
+    min-height: 630px;
+    height: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.questions_cta_area_outermost {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 75px;
+}
+
+img.girl_with_phone_image {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 455px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+article.questions_body_text {
+    padding-top: 48px;
+    margin-bottom: 28px;
+}
+
+article.questions_body_text p {
+    font-size: 1.143rem;
+    font-weight: normal;
+    text-align: left;
+    color: #666666;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+.contactus_btn_holder {
+    padding-top: 24px;
+}
+
+button.contactus_btn {
+    width: 210px;
+    height: 55px;
+    font-size: 1.143rem;
+    font-weight: 500;
+    background: #00A5E7;
+    color: #ffffff;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.09);
+    border-radius: 100px;
+    transition: all 0.4s ease-in-out;
+}
+
+button.contactus_btn:hover {
+    background: rgba(0, 165, 231, 0.7);
+    color: #ffffff;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
+.section_title_holder_questions h2 {
+    font-family: 'Nexa', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 16px;
+}
 
 

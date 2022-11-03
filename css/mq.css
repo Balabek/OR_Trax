@@ -264,6 +264,35 @@
 
 
 
+/* _-_-_-_ */
+/* ---------------- */
+/* ==================== */
+/* FAQ (Inner Page) */
+/* ==================== */
+/* ---------------- */
+/* _-_-_-_ */
+
+@media screen and (max-width: 1199px){
+    .faq_accordion_holder {width: 90%;}
+}
+
+@media screen and (max-width: 991px){
+    .faq_accordion_holder {width: 99%;}
+}
+
+@media screen and (max-width: 767px){
+    .section_title_holder_questions h2 {text-align: center;}
+    .section_title_holder_questions {text-align: center;}
+    article.questions_body_text p {text-align: center;}
+    .contactus_btn_holder {
+        padding-top: 6px;
+        text-align: center;
+        margin-bottom: 55px;
+    }
+}
+
+
+
 
 
 
