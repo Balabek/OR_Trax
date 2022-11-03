@@ -322,6 +322,44 @@
 
 
 
+/* _-_-_-_ */
+/* ---------------- */
+/* ==================== */
+/* Healthcare Providers (Inner Page) */
+/* ==================== */
+/* ---------------- */
+/* _-_-_-_ */
+
+@media screen and (max-width: 1399px){
+    span.mediadeco.grey {left: 20px;}
+}
+
+@media screen and (max-width: 991px){
+    .section_title_holder.shrinked_ttl {width: 95%;}
+    .ortrx_inner_info_area_outermost {padding-bottom: 45px;}
+}
+
+@media screen and (max-width: 650px){
+    span.mediadeco.grey {height: 140px;}
+    span.mediadeco.blue {height: 140px;}
+    span.mediadeco.blue {left: 45px;}
+}
+
+@media screen and (max-width: 568px){
+    .ortrx_info_and_media_area_outermost {padding-left: 8px; padding-right: 8px;}
+}
+
+@media screen and (max-width: 475px){
+    .ortrx_info_media_pic {height: 320px;}
+}
+
+@media screen and (max-width: 400px){
+    .ortrx_info_media_pic {height: 240px;}
+}
+
+
+
+
 
 
 
