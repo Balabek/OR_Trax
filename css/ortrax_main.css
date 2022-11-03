@@ -1556,6 +1556,84 @@ img.chart_image {
     margin-bottom: 12px;
 }
 
+.benefit_boxes_area {
+    position: relative;
+    background: #fefefe;
+    min-height: 880px;
+    height: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.benefit_boxes_area_outermost {
+    padding-top: 55px;
+}
+
+.benefitbox {
+    display: block;
+    position: relative;
+    width: 100%;
+    min-height: 640px;
+    height: auto;
+    border-radius: 20px;
+    padding: 26px;
+}
+
+.benefitbox.healthcare {
+    background: url('../img/benefitbox_healthcare.png') center center no-repeat;
+    background-size: cover;
+}
+
+.benefitbox.vendor {
+    background: url('../img/benefitbox_vendor.png') center center no-repeat;
+    background-size: cover;
+}
+
+.benefits_ttl_holder {
+    padding-top: 42px;
+}
+
+.benefits_ttl_holder h4 {
+    font-family: 'Nexa', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.benefitlist_holder {
+    padding-top: 55px;
+}
+
+ul.benefitlist {
+    padding-top: 12px;
+    padding-left: 8px;
+}
+
+ul.benefitlist li {
+    list-style-type: none;
+    font-size: 1.143rem;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    text-indent: -23px;
+    margin-left: 18px;
+}
+
+ul.benefitlist li:before {
+    position: relative;
+    top: -1px;
+    font-family: "Font Awesome 5 Free";
+    content: '\f058';
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-right: 8px;
+}
+
+
+
+
 
 
 
