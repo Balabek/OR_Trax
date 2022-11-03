@@ -321,11 +321,10 @@
 
 
 
-
 /* _-_-_-_ */
 /* ---------------- */
 /* ==================== */
-/* Healthcare Providers (Inner Page) */
+/* Healthcare Providers + Vendor Representatives (Inner Pages) */
 /* ==================== */
 /* ---------------- */
 /* _-_-_-_ */
@@ -361,7 +360,21 @@
 
 
 
+/* _-_-_-_ */
+/* ---------------- */
+/* ==================== */
+/* Compliance (Inner Page) */
+/* ==================== */
+/* ---------------- */
+/* _-_-_-_ */
 
+@media screen and (max-width: 991px){
+    img.chart_image {height: 185px;}
+}
+
+@media screen and (max-width: 480px){
+    img.chart_image {height: 100px;}
+}
 
 
 
