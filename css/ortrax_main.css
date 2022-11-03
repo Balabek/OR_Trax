@@ -1733,6 +1733,25 @@ img.logo_xxl_decoration {
     opacity: 0.1;
 }
 
+.forgot_holder {
+    padding-top: 12px;
+}
+
+a.forgot {
+    font-size: 0.94rem;
+    font-weight: 400;
+    color: #00A5E7;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.9s ease;
+    border-bottom: 1px dashed #00A5E7;
+}
+
+a.forgot:hover {
+    border-bottom: 1px dashed rgba(0, 165, 231, 0.74);
+    color: rgba(0, 165, 231, 0.74);
+}
+
 
 
 
