@@ -227,7 +227,6 @@
     .innerpage_decoration {right: -55%;}
 }
 
-
 @media screen and (max-width: 485px) {
     .inner_banner_holder h1 {font-size: 3rem;}
 
@@ -393,6 +392,28 @@
 }
 
 
+
+
+
+/* _-_-_-_ */
+/* ---------------- */
+/* ==================== */
+/* Registration (Screen) */
+/* ==================== */
+/* ---------------- */
+/* _-_-_-_ */
+
+@media screen and (max-width: 991px){
+    .ortrx_login_and_registration_area_outermost {width: 99%;}
+}
+
+@media screen and (max-width: 767px){
+    form.ortrx_registration_form {padding-left: 22px; padding-right: 22px;}
+}
+
+@media screen and (max-width: 360px){
+    .prompt_holder p {font-size: 0.9rem;}
+}
 
 
 
