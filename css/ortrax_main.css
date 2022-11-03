@@ -959,6 +959,10 @@ article.standard_body_text.centered_and_shrinked {
     padding-top: 65px;
 }
 
+.cs_card_holder {
+    margin-bottom: 42px;
+}
+
 .cs_card {
     display: inline-block;
     position: relative;
