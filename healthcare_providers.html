@@ -36,6 +36,9 @@
     <!-- Hover CSS -->
     <link href="css/hover.css" rel="stylesheet">
 
+    <!-- AOS Library CSS -->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
     <!-- Main CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/ortrax_main.css" rel="stylesheet">
@@ -181,7 +184,7 @@
                     <span class="title_decoration"></span>
                 </div>
                 <div class="row advantage_circles_and_icons_outermost">
-                    <div class="col-md-4 circle_icon_holder justify-content-center" style="visibility: visible;">
+                    <div class="col-md-4 circle_icon_holder justify-content-center" style="visibility: visible;" data-aos="fade-down" data-aos-delay="200">
                         <div class="solo_circle">
                             <img src="img/icon_healthcare.svg" class="why_icon" alt="Healthcare icon">
                         </div>
@@ -190,7 +193,7 @@
                             information in order to provide product support in the operating room.
                         </p>
                     </div> <!-- Icon + Circle END -->
-                    <div class="col-md-4 circle_icon_holder justify-content-center" style="visibility: visible;">
+                    <div class="col-md-4 circle_icon_holder justify-content-center" style="visibility: visible;" data-aos="fade-down" data-aos-delay="300">
                         <div class="solo_circle">
                             <img src="img/icon_devices.svg" class="why_icon" alt="Multiple devices icon">
                         </div>
@@ -199,7 +202,7 @@
                             data throughout their territory.
                         </p>
                     </div> <!-- Icon + Circle END -->
-                    <div class="col-md-4 circle_icon_holder justify-content-center" style="visibility: visible;">
+                    <div class="col-md-4 circle_icon_holder justify-content-center" style="visibility: visible;" data-aos="fade-down" data-aos-delay="400">
                         <div class="solo_circle">
                             <img src="img/icon_stethoscope.svg" class="why_icon" alt="Stethoscope icon">
                         </div>
@@ -255,6 +258,11 @@
 <!-- JSz -->
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/ortrax.js"></script>
+
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script>
+    AOS.init( {once: false} );
+</script>
 
 </body>
 

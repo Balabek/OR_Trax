@@ -34,8 +34,8 @@
     <!-- Hover CSS -->
     <link href="css/hover.css" rel="stylesheet">
 
+    <!-- AOS Library CSS -->
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-
 
     <!-- Main CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -156,11 +156,11 @@
 
    <div class="three_box_area">
        <div class="container">
-           <div class="row three_box_outermost" data-aos="fade">
+           <div class="row three_box_outermost">
                 <div class="col-lg-5 col-md-3 col-sm-12 doc_with_phone_outermost">
-                    <img src="img/docwithphoe_deco.webp" class="docphone " alt="Smiling doctor with a mobile phone in her hand">
+                    <img src="img/docwithphoe_deco.webp" class="docphone " alt="Smiling doctor with a mobile phone in her hand" data-aos="fade" data-aos-delay="100">
                 </div>
-               <div class="col-lg-2 col-md-3 col-sm-12 ctabox_outermost">
+               <div class="col-lg-2 col-md-3 col-sm-12 ctabox_outermost" data-aos="fade-up" data-aos-delay="100">
                    <div class="ctabox darkblue hvr-float">
                        <div class="ctabox_inner">
                            <div class="icon_holder">
@@ -175,7 +175,7 @@
                        </div>
                    </div>
                </div> <!-- CTA Box END -->
-               <div class="col-lg-2 col-md-3 col-sm-12 ctabox_outermost">
+               <div class="col-lg-2 col-md-3 col-sm-12 ctabox_outermost" data-aos="fade-down" data-aos-delay="300">
                    <div class="ctabox cyan hvr-float">
                        <div class="ctabox_inner">
                            <div class="icon_holder">
@@ -190,7 +190,7 @@
                        </div>
                    </div>
                </div> <!-- CTA Box END -->
-               <div class="col-lg-2 col-md-3 col-sm-12 ctabox_outermost">
+               <div class="col-lg-2 col-md-3 col-sm-12 ctabox_outermost" data-aos="fade-down" data-aos-delay="500">
                    <div class="ctabox purple hvr-float">
                        <div class="ctabox_inner">
                            <div class="icon_holder">
@@ -212,7 +212,7 @@
     <div class="who_we_are_area">
         <div class="container">
             <div class="row who_we_are_content_outermost">
-                <div class="col-md-6 who_we_are_text_holder">
+                <div class="col-md-6 who_we_are_text_holder" data-aos="fade" data-aos-delay="200">
                     <div class="section_title_holder leftaligned">
                         <h2>Who We Are</h2>
                         <span class="title_decoration"></span>
@@ -231,7 +231,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 who_we_are_image_holder">
-                    <img src="img/devices.png" class="who_we_are_image" alt="An iPad and and iPhone with OR Trax app screens">
+                    <img src="img/devices.png" class="who_we_are_image" alt="An iPad and and iPhone with OR Trax app screens" data-aos="fade-left" data-aos-delay="500">
                 </div>
             </div>
         </div>
@@ -245,7 +245,7 @@
                     <span class="title_decoration"></span>
                 </div>
                 <div class="row advantage_circles_and_icons_outermost">
-                    <div class="col-md-4 circle_icon_holder justify-content-center" style="visibility: visible;">
+                    <div class="col-md-4 circle_icon_holder justify-content-center" style="visibility: visible;" data-aos="fade-down" data-aos-delay="200">
                         <div class="solo_circle">
                             <img src="img/icon_healthcare.svg" class="why_icon" alt="Healthcare icon">
                         </div>
@@ -254,7 +254,7 @@
                             information in order to provide product support in the operating room.
                         </p>
                     </div> <!-- Icon + Circle END -->
-                    <div class="col-md-4 circle_icon_holder justify-content-center" style="visibility: visible;">
+                    <div class="col-md-4 circle_icon_holder justify-content-center" style="visibility: visible;" data-aos="fade-down" data-aos-delay="300">
                         <div class="solo_circle">
                             <img src="img/icon_devices.svg" class="why_icon" alt="Multiple devices icon">
                         </div>
@@ -263,7 +263,7 @@
                             data throughout their territory.
                         </p>
                     </div> <!-- Icon + Circle END -->
-                    <div class="col-md-4 circle_icon_holder justify-content-center" style="visibility: visible;">
+                    <div class="col-md-4 circle_icon_holder justify-content-center" style="visibility: visible;" data-aos="fade-down" data-aos-delay="400">
                         <div class="solo_circle">
                             <img src="img/icon_stethoscope.svg" class="why_icon" alt="Stethoscope icon">
                         </div>
@@ -324,7 +324,7 @@
 
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 <script>
-    AOS.init( {once: true} );
+    AOS.init( {once: false} );
 </script>
 
 

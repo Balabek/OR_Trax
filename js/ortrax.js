@@ -7,5 +7,7 @@ $(document).ready(function(){
         $('.animated-icon1').toggleClass('open');
     });
 
+
+
 });
 

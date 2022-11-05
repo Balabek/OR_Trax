@@ -36,6 +36,9 @@
     <!-- Hover CSS -->
     <link href="css/hover.css" rel="stylesheet">
 
+    <!-- AOS Library CSS -->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
     <!-- Main CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/ortrax_main.css" rel="stylesheet">
@@ -246,7 +249,7 @@
     <div class="questions_cta_area">
         <div class="container">
             <div class="row questions_cta_area_outermost">
-                <div class="offset-lg-1 col-lg-4 offset-md-0 col-md-6 questions_txt_holder">
+                <div class="offset-lg-1 col-lg-4 offset-md-0 col-md-6 questions_txt_holder" data-aos="fade" data-aos-duration="200">
                     <div class="section_title_holder_questions">
                         <h2>Still Have Questions?</h2>
                         <span class="title_decoration questions_decoration"></span>
@@ -261,14 +264,11 @@
                     </div>
                 </div>
                 <div class="col-md-6 girl_with_phone_image_holder">
-                    <img src="img/girlphone_cirlce.png"  class="girl_with_phone_image" alt="Smiling woman looks at the screen of her mobile phone">
+                    <img src="img/girlphone_cirlce.png"  class="girl_with_phone_image" alt="Smiling woman looks at the screen of her mobile phone" data-aos="fade-left" data-aos-duration="500">
                 </div>
-
             </div>
         </div>
     </div> <!-- Contact CTA Area END -->
-
-
 
     <footer class="ortrx_footer">
         <div class="container">
@@ -312,6 +312,11 @@
 <!-- JSz -->
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/ortrax.js"></script>
+
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script>
+    AOS.init( {once: false} );
+</script>
 
 </body>
 
