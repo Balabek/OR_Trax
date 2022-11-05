@@ -6,8 +6,8 @@
 
 html {
     font-size: 14px !important;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    /*overflow-x: hidden;*/
+    /*overflow-y: scroll;*/
     height: 100%;
     scroll-behavior: smooth;
 }
@@ -68,8 +68,8 @@ input:disabled, input[disabled] {
 .bg-light {
     /*position: relative;*/
     z-index: 10;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     background: #FFFFFF !important;
     box-shadow: 0 33px 119px rgba(0, 0, 0, 0.04);
 
@@ -109,7 +109,7 @@ li.nav-item > a:after {
     display: block;
     height: 2px;
     position: relative;
-    bottom: -42px;
+    bottom: -32px;
     background: #00A5E7;
     transform: scaleX(0);
     transition: transform .3s;
@@ -1751,17 +1751,6 @@ a.forgot:hover {
     border-bottom: 1px dashed rgba(0, 165, 231, 0.74);
     color: rgba(0, 165, 231, 0.74);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
